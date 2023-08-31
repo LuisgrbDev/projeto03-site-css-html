@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços</title>
+    <link rel="stylesheet" href="css/style.serv.css">
+    <link rel="icon" type="image/x-icon" href="image/logo.gif">
+</head>
+
+
+<body>
+    <div class="cab">
+        <div class="cab1">
+            <a href="index.html"><img src="image/logo.jpg" alt="logo Cachorro bacana pet" class="responsive"></a>
+        </div>
+        <div class="cab2">
+            <nav>
+                <div class="pesquisa">
+                    <form action="#">
+                        <input type="text" placeholder="Pesquisa" name="pesquisa">
+                        <button>Pesquisa</button>
+                    </form>
+                </div>
+                <ul>
+                    <li><a href="cachorros.html">Cachorros</a></li>
+                    <li class="mnu"><a href="cachorros.html">Gatos</a></li>
+                    <li  class="mnu" ><a href="cachorros.html">Aves</a></li>
+                    <li class="cac"><a href="cachorros.html">Outros Pets</a></li>
+                    <li class="mnu"><a href="servicos.html">Serviços</a></li>
+                    <li class="mnu"><a href="adocao.html">Adoção</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="cab3"><a href="cadastro.html"><img src="image/cadastro.png" width="50" alt="logo Cachorro bacana pet" class="responsive"></a>
+            <a href="https://www.google.com.br/maps/@-23.5285211,-46.692823,18z?entry=ttu"><img src="image/mapa.png" width="50" alt="logo Cachorro bacana pet" class="responsive"></a>
+            <a href="index.html"><img src="image/carrinho.png" width="60" alt="logo Cachorro bacana pet" class="responsive"></a>
+          </div>
+    </div>
+
+
+
+    <main>
+
+        <!-- INSERINDO O TITULO DA PAGINA   -->
+        <h2>SERVIÇOS PARA SEU PET</h2>
+
+        <br>
+
+        <!-- INSERINDO O "HR" A LINHA DE SEPARAÇÃO DO TITULO DA PÁGINA -->
+        <hr>
+
+        <br>
+
+        <!-- INSERINDO A TARJA DO TITULO DE BANHO E TOSA -->
+        <h3>BANHO E TOSA</h3>
+        <br>
+
+        <!-- INSERINDO A DIV CONTAINER PRINCIPAL COM O NOME DE "FORMBT"  -->
+        <div class="formbt">
+
+            <!--  INSERINDO A DIV "BOX-FORMULARIO" QUE VAI RECEBER O FORMULARIO -->
+            <div class="box-formulario">
+
+                <!-- INSERINDO A PARTIR DAQUI O FORMULARIO DE BANHO E TOSA -->
+                <form method="post" action="index.html">
+
+
+                    <!-- NOME PROPRIETÁRIO  adicionamos uma div no input, para configurar o espaçamento do imput e colocamos o nome de "id=txtnome"-->
+                    <label for="nome">Nome do proprietário:</label>
+                    <input type="text" id="txtnome" size="60" placeholder="Nome completo"><br><br>
+
+
+                    <!-- CODIGO PROPRIETÁRIO -->
+                    <label for="codigo cliente"><br>Código do cliente:</label>
+                    <input type="text" placeholder="001.231.232-23">
+
+                    <!-- NOME DO ANIMAL -->
+                    <label for="nome do animal" id="lblanimal">Nome do animal:</label>
+                    <input type="text" size="30"><br><br><br>
+
+
+                    <!-- SERVIÇOS PRESTADOR -->
+                    <label for="servicos" id="lblservico">Serviços:</label>
+
+                    <!-- BANHO  -->
+                    <input type="radio" name="opcao" id="01">
+                    <label for="ba">Banho</label>
+
+                    <!-- TOSA -->
+                    <input type="radio" name="opcao" id="02">
+                    <label for="to">Tosa</label>
+
+                    <!-- CORTE DE UNHA -->
+                    <input type="radio" name="opcao" id="03">
+                    <label for="cdu">Corte de unha</label><br><br><br>
+
+                    <!--CALENDARIO AGENDAMENTO  -->
+                    <label>Data de agendamento</label>
+                    <input type="date" name="data" id="dtAgenda" min="2017-04-01" required />
+
+                    <!-- HORARIO AGENDAMENTO -->
+                    <label for="horaInicio" id="lblhorario">Agende o horário:</label>
+
+
+                    <!-- HORÁRIO PARA INÍCIO E FIM DO BANHO E TOSA" /> -->
+                    <input id="hora-atend" type="time" name="hora-atend" min="09:00" max="18:00" ste="08" />
+
+
+                    <!-- VALIDAÇÃO -->
+                    <!-- Importante saber : A VALIDAÇÃO DO FORMULÁRIO, nos ajuda a garantir que os usuários preencham os campos no formato correto, garantindo que os dados enviados funcionem com êxito em nossos aplicativos -->
+                    <span class="validacao"></span>
+
+
+
+                    <!-- INFORMATIVO HORARIO DE ATENDIMENTO  -->
+                    <P><span style="color:#ff0000;" id="informbt">
+                            <medio><br><br><b>Banho e tosa das 09hs às 18hs.</b></medio>
+                        </span></P>
+                    <br>
+
+                    <!-- INFORMATIVO DE AGENDAMENTO  -->
+                    <span style="color:#ff0000;">
+                        <medio><b>Atenção: Os agendamentos deverão ser feitos com 02 dias de antecedência.</b></medio>
+                    </span>
+
+
+                    <!-- inserindo a confirmação ENVIAR do cadastro -->
+
+                    <div>
+
+                        <input class="agbt" type="submit" id="sub" value="Agendar"></input>
+
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+
+
+        <!-- A SEGUIR, CONFIGURANDO O CADASTRO DE CONSULTA -->
+
+
+        <br>
+        <hr>
+        <br>
+
+        <!-- TARJA DO TÍTULO DA CONSULTA VETERINARIA CLASSIFICADA COMO "VERDE" PARA PODER DIFERENCIAR DO TITULO DE BANHO E TOSA -->
+
+        <h3 class="verde">Consulta Veterinária</h3>
+        <br>
+
+
+
+        <!-- INSERINDO A CAIXA DIV CONTAINER PRINCIPAL COM O NOME DE "FORMCONS" -->
+
+        <div class="formcons">
+
+            <!-- INSERINDO A CAIXA DIV "BOX-CONSULTA" ONDE SERÁ INSERIDO O FORMULÁRIO DO CADASTRO DE AGENDAMENTO DA CONSULTA -->
+
+            <div class="box-consulta">
+
+                <!-- A PARTIR DAQUI, VAMOS INSERIR OS CÓDIGOS DO FORMULARIO DO AGENDAMENTO PARA CONSULTA -->
+                <form method="post" action="index.html">
+
+
+                    <!-- NOME PROPRIETÁRIO  adicionamos uma div no input, para configurar o espaçamento do imput e colocamos o nome de "id=txtnome"-->
+                    <label for="nome">Nome do proprietário:</label>
+                    <input type="text" id="txtpropri" size="60" placeholder="Nome completo"><br><br>
+
+
+                    <!-- CODIGO PROPRIETÁRIO -->
+                    <label for="codigo cliente"><br>Código do cliente:</label>
+                    <input type="text" placeholder="001.231.232-23">
+
+                    <!-- NOME DO ANIMAL -->
+                    <label for="nome do animal" id="consanimal">Nome do animal:</label>
+                    <input type="text" size="30"><br><br><br>
+
+                    <!--CALENDARIO AGENDAMENTO  -->
+                    <label>Data de agendamento</label>
+                    <input type="date" name="data" id="dtAgenda" min="2017-04-01" required />
+
+                    <!-- HORARIO AGENDAMENTO -->
+                    <label for="horaInicio" id="lblhora">Agende o horário:</label>
+
+
+                    <!-- HORÁRIO AGENDAMENTO CONSULTA" /> -->
+                    <input id="hora-atend" type="time" name="hora-atend" min="07:00" max="23:00" />
+
+                    <!-- VALIDAÇÃO -->
+                    <!-- Importante saber : A VALIDAÇÃO DO FORMULÁRIO, nos ajuda a garantir que os usuários preencham os campos no formato correto, garantindo que os dados enviados funcionem com êxito em nossos aplicativos -->
+                    <span class="validacao"></span>
+
+                    <br><br>
+
+                    <!-- INSERINDO A CAIXA DE MENSAGEM -->
+                    <label for="mensagem" id="lblsintomas"><br>Descreva os sintomas:</label>
+                    <br>
+                    <textarea name="mensagem" id="mensagem" cols="50" rows="10"></textarea>
+
+                    <br>
+
+                    <!-- INFORMATIVO HORARIO DE ATENDIMENTO  -->
+                    <P><span style="color:#ff0000;" id="informbt">
+                            <medio><br><br><b>Atenção:<br> Para atendimentos emergenciais após as 23 horas ligue para (11)
+                                    9.1234-5678.</b></medio>
+                        </span></P>
+                    
+
+                    <!-- inserindo a confirmação ENVIAR do cadastro -->
+                    <div>
+                        <input class="agcons" type="submit" value="Agendar"></input>
+                    </div>
+
+                </form>
+
+
+            </div>
+
+
+        </div>
+
+        <!-- FIM DA PAGINA 8 CADASTRO DE BANHO E TOSA E CONSULTA -->
+
+    </main>
+
+
+    <!-- INSERINDO O RODAPÉ -->
+    <footer>
+
+        <!-- CRIANDO A DIV CONTAINER RODAPE COM O NOME DE "ID=RODAPE" ONDE SERÃO INSERIDOS OS ELEMENTOS DO RODAPÉ -->
+        <div id="rodape">
+
+            <!-- INSERINDO O ITEM "INSTITUCIONAL + SOBRE O BACANAPET + TRABALHE CONOSCO" -->
+            <div class="ins">
+                <h4>Institucional</h4>
+                <a href="sobre.html">Sobre o BacanaPet</a>
+                <a href="trabalheconosco.html">Trabalhe conosco</a>
+            </div>
+
+            <!-- INSERINDO O ITEM "REDES SOCIAIS + ICONE DO FACEBOOK + INSTAGRAN + TIKTOK -->
+            <div class="reds">
+                <h4>Redes Sociais</h4>
+                <img src="image/facebook-colorido.png" alt="" width="35">
+                <img src="image/instagram-colorido.png" alt="" width="35">
+                <img src="image/tiktok-colorido-branco.png" alt="" width="35">
+            </div>
+
+            <!-- INSERINDO O ITEM "ATENDIMENTO + FALE CONOSCO + OUVIDORIA" -->
+            <div class="aten">
+                <h4>Atendimento</h4>
+                <a href="">Fale conosco</a>
+                <a href="">Ouvidoria</a>
+            </div>
+
+            <!-- INSERINDO O ITEM "FORMAS DE PAGAMENTO + IMAGEM DO CARTÃO" -->
+            <div class="formas">
+                <h4>Formas de Pagamentos</h4>
+                <img src="image/cartao.png" alt="" width="210">
+            </div>
+
+            <!-- INSERINDO O ITEM "ENDEREÇOS " -->
+            <div class="end">
+                <h4>Endereços</h4>
+                <a href="">Rua BacanaPet,31 - lapa</a>
+                <a href="">rua os perdidos 68 - amado</a>
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
