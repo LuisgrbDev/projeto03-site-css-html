@@ -52,13 +52,13 @@ body {
     border-radius: 20px;
     border: none;
     margin-left: 95px;
-    
+
 }
 
 .pesquisa button {
     background-color: #0074D9;
     color: #ffffff;
-    border: none;   
+    border: none;
     padding: 5px 10px;
     cursor: pointer;
     margin-left: 10px;
@@ -72,8 +72,8 @@ ul {
     text-align: center;
     margin-top: 20px;
     height: auto;
-    
-        
+
+
 }
 
 li:hover {
@@ -140,7 +140,7 @@ main {
 .reds a,
 .aten a,
 .formas a,
-.end a  {
+.end a {
     color: #fff;
     text-decoration: none;
     display: block;
@@ -237,29 +237,42 @@ figure {
 
 .fotos {
     width: 10%;
-    height: auto;
-    padding: 6%;
+    height: 250px;
+    margin: 6%;
     opacity: 0.8;
     transition: opacity 0.1s ease-in-out;
-    border-radius: 20%;
+    border-radius: 10%;
 
 
 
 }
 
 img.fotos:hover {
-    opacity: 1;
+    opacity: 2;
     width: 10%;
-    border: 1px solid rgb(255, 164, 45);
+    border: 1px solid #136093;
+    height: 250px;
 
 }
 
 .fotoss {
     width: 20%;
     height: auto;
-    padding: 1%;
+    margin: 10px;
     border-radius: 50%;
+    opacity: 60%;
 }
+
+.fotoss:hover {
+    opacity: 10;
+    width: 20%;
+    border: 0px solid #136093;
+    height: auto;
+    box-shadow: 8px 8px 20px #136093;
+    
+}
+
+
 
 .flex-container {
     display: flex;
