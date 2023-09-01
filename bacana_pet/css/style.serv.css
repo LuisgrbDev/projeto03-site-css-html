@@ -38,79 +38,109 @@ body {
 }
 
 /* RESPONSIVO */
-.responsive {
+.icone-responsive {
   max-width: 100%;
   height: auto;
+  margin: 5px;
+  margin-left: 30px;
+  border-radius: 20%;
+ 
 }
 
 /* CONFIGURANDO O ELEMENTO PESQUISA */
 .pesquisa {
   display: flex;
-  margin-left: 88px;
+  margin-left: 20px;
 }
 
-
+/* CONFIGURANDO O INPUT DA PESQUISA */
 .pesquisa input[type="text"] {
   width: 200px;
-  padding: 10px;
+  padding: 5px;
   border-radius: 20px;
   border: none;
-  margin-left: 98px;
-  
+  margin-left: 40px;
 }
 
+/* CONFIGURANDO O BOTÃO PESQUISA */
 .pesquisa button {
   background-color: #0074D9;
   color: #ffffff;
-  border: none;   
+  border: none;
+  border-radius: 20px;
   padding: 5px 10px;
   cursor: pointer;
-  margin-left: 10px;
+  margin-left: 30px;
+ 
 }
 
-ul {
+/* CONFIGURANDO A NAVEGAÇÃO UL */
+nav ul {
   list-style: none;
   display: flex;
   gap: 15px;
-  margin-right: 65px;
-  text-align: center;
-  margin-top: 20px;
-  height: auto;
-  font-size: 18px;
-  
-      
+ text-align: center;
+ align-items: center;
+ margin-left: -40px;
+ padding-top: 20px;
 }
-.mnu:hover{
-  border: 1px solid #7EC5E3;
-  border-radius: 50px;
-  width: 100px;
+
+/* INSERINDO O HOVER NAS "LI" */
+ul li1:hover{
   background-color: #7EC5E3;
-    text-align: center;
-
+  color: white;
+  display: flexbox;
+  cursor: pointer;
+  border-radius: 5%;
 }
-.aves:hover{
-  border: 1px solid #7EC5E3;
-  border-radius: 50px;
-  width: 85px;
+
+
+ul li2:hover{
+  background-color:#7EC5E3;
+  color: white;
+  display: flexbox;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+ul li3:hover{
   background-color: #7EC5E3;
-  text-align: center;
-
+  color: white;
+  display: flexbox;
+  cursor: pointer;
+  border-radius: 5%;
 }
 
-
-.cac:hover {
-  border: 1px solid #7EC5E3;
-  border-radius: 50px;
-  width: 127px;
+ul li4:hover{
   background-color: #7EC5E3;
-  text-align: center;
+  color: white;
+  display: flexbox;
+  cursor: pointer;
+  border-radius: 5%;
 }
 
+ul li5:hover{
+  background-color: #7EC5E3;
+  color: white;
+  display: flexbox;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+ul li6:hover{
+  background-color: #7EC5E3;
+  color: white;
+  display: flexbox;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+
+/* CONFIGURANDO A NAVEGAÇÃO ANCORA */
 nav a {
   text-decoration: none;
   color: white;
   font-weight: bold;
-  margin: 15px;
 }
 
 
@@ -205,10 +235,16 @@ h2 {
   font-size: 350%;
   padding-top: 3%;
   font-weight: bold;
-  color: #50B8F3;
+  color: #2d9bda;
   word-spacing: 25px;
   width: 100%;
+  color: #2d9bda;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #110247;
+  -webkit-text-fill-color: #2d9bda;
+ 
 }
+
 
 /* configurando a cor da linha do hr */
 hr {
@@ -228,7 +264,31 @@ h3 {
   height: 40px;
   display: flexbox;
   padding-top: 1%;
-  background-color: #2bbaf6
+  background-color: #2bbaf6;
+border-radius: 5px;
+  
+}
+
+
+/* configurando a imagem do cachorro com toca */
+.img-ducha{
+border-color: #0074D9;
+border-radius: 50%;
+margin-left: -30px;
+width: 400px;
+display: flex;
+image-resolution: 300px;
+
+}
+
+/* configurando a imagem do cachorro com toca e o cachorro da conulta */
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  margin: 5px;
+  margin-left: 30px;
+  border-radius: 95px;
+box-shadow:5px 11px 11px 3px #13c7f8a0;
 }
 
 
@@ -254,6 +314,7 @@ h3 {
 /* CONFIGURANDO O IMPUT "NOME DO PROPRIETARIO */
 #txtnome {
   margin-left: 1%;
+ margin-top: 10px;
 }
 
 
@@ -272,7 +333,9 @@ h3 {
 /* CONFIGURANDO A LABEL HORARIO */
 #lblhorario {
   margin-left: 14%;
+   
 }
+
 
 
 /* Configurar a Caixa de Enviar "Agendar" */
@@ -288,13 +351,14 @@ h3 {
   border-radius: 10%;
   background-color: #2196F3;
   font-family: Arial, Helvetica, sans-serif;
+  margin-block-end: 10px;
 }
 
 
 /* CONFIGURANDO O MOUSE SUBMIT */
 #sub:hover {
-  background-color: chartreuse;
-  color: #000306;
+  background-color: #136093;
+  color: white;
   display: flexbox;
   cursor: pointer;
 }
@@ -304,9 +368,10 @@ h3 {
 
 /* Configurando o título CONSULTA VETERINÁRIA */
 .verde {
-  background-color: #f35b0f;
-  color: #fff;
+  background-color: #2bbaf6;
+  color: #000306;
   display: flexbox;
+  border-radius: 5px;
 }
 
 
@@ -318,9 +383,23 @@ h3 {
 }
 
 
+/* configurando a imagem do cacorro na consulta */
+.img-consulta{
+  border-color: #0074D9;
+  border-radius: 5%;
+  margin-left: -30px;
+  width: 400px;
+  display: flex;
+  height: 260px;
+  margin-top: -5%;
+  image-resolution: 300px;
+    
+  }
+
+
 /* CONFIGURANDO A CAIXA DE FORMULARIO CONSULTA */
 .box-consulta {
-  background-color: #f35b0f47;
+  background-color: #97e3f8a0;
   width: 800px;
   padding: 10px;
   border-color: #000306;
@@ -332,6 +411,7 @@ h3 {
 /* CONFIGURANDO O IMPUT "NOME DO PROPRIETARIO */
 #txtpropri {
   margin-left: 1%;
+  margin-top: 10px;
 }
 
 
@@ -349,7 +429,7 @@ h3 {
 
 /* CONFIGURANDO A LABEL SINTOMAS */
 #lblsintomas {
-  border-radius: 2%;
+  border-radius: 10%;
 }
 
 
@@ -364,18 +444,18 @@ input[type=submit] {
   color: #ffffff;
   font-weight: bold;
   border-radius: 10%;
-  background-color: #f35b0f;
+  background-color: #2196F3;
   font-family: Arial, Helvetica, sans-serif;
+  margin-block-end: 10px;
 }
 
 /* CONFIGURANDO O MOUSE DO SUBMIT "ENVIAR" */
 .agcons:hover {
-  background-color: chartreuse;
-  color: #000306;
+  background-color: #136093;
+  color: white;
   display: flexbox;
   cursor: pointer;
 }
-
 
 
 /* Footer = RODAPÉ */
@@ -399,21 +479,20 @@ input[type=submit] {
 .aten,
 .formas,
 .end {
-  flex-basis: calc(20% - 20px);
-}
-.end a,
-.ins a,
-.reds a,
-.aten a,
-.formas a,
-.end a  {
-    color: #fff;
-    text-decoration: none;
-    display: block;
-    margin-bottom: 5px;
-    margin-top: 15px;
+  flex-basis: calc(20% - 10px);
+    
 }
 
+
+.end a,
+.ins a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 5px;
+}
+
+
 .reds img {
-  margin-right: 10px;
+  margin-right: 3px
 }

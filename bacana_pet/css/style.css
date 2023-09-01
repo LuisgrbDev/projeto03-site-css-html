@@ -72,18 +72,56 @@ ul {
     text-align: center;
     margin-top: 20px;
     height: auto;
-
-
 }
-
-li:hover {
-    border: 1px solid #7EC5E3;
-    border-radius: 50px;
-    width: 80px;
-    background-color: #7EC5E3;
-
-
-}
+    ul li1:hover{
+        background-color: #7EC5E3;
+        color: white;
+        display: flexbox;
+        cursor: pointer;
+        border-radius: 5%;
+      }
+      
+      
+      ul li2:hover{
+        background-color:#7EC5E3;
+        color: white;
+        display: flexbox;
+        cursor: pointer;
+        border-radius: 5%;
+      }
+      
+      ul li3:hover{
+        background-color: #7EC5E3;
+        color: white;
+        display: flexbox;
+        cursor: pointer;
+        border-radius: 5%;
+      }
+      
+      ul li4:hover{
+        background-color: #7EC5E3;
+        color: white;
+        display: flexbox;
+        cursor: pointer;
+        border-radius: 5%;
+      }
+      
+      ul li5:hover{
+        background-color: #7EC5E3;
+        color: white;
+        display: flexbox;
+        cursor: pointer;
+        border-radius: 5%;
+      }
+      
+      ul li6:hover{
+        background-color: #7EC5E3;
+        color: white;
+        display: flexbox;
+        cursor: pointer;
+        border-radius: 5%;
+      }
+      
 
 nav a {
     text-decoration: none;
