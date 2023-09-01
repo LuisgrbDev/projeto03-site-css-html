@@ -1,164 +1,144 @@
-/* CSS Reset = REINICIAR */
+/* CSS Reset */
 body,
 h1,
 h2,
 p,
 figure {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
-/* Additional Styles = ESTILOS ADICIONAIS */
+/* Additional Styles */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
 }
 
-/* Header = CABEÇALHO */
+/* Header */
 .cab {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #2bbaf6;
-  padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2bbaf6;
+    padding: 10px;
+
 }
 
-/* CABEÇALHO 1 E 3 */
 .cab1,
 .cab3 {
-  flex: 1;
+    flex: 1;
 }
 
-/* CABEÇALHO 2 */
 .cab2 {
-  flex: 2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/* RESPONSIVO */
-.icone-responsive {
-  max-width: 100%;
-  height: auto;
-  margin: 5px;
-  margin-left: 30px;
-  border-radius: 20%;
- 
+.responsive {
+    max-width: 100%;
+    height: auto;
 }
 
-/* CONFIGURANDO O ELEMENTO PESQUISA */
-.pesquisa {
-  display: flex;
-  margin-left: 20px;
-}
 
-/* CONFIGURANDO O INPUT DA PESQUISA */
 .pesquisa input[type="text"] {
-  width: 200px;
-  padding: 5px;
-  border-radius: 20px;
-  border: none;
-  margin-left: 40px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 95px;
+    
 }
 
-/* CONFIGURANDO O BOTÃO PESQUISA */
 .pesquisa button {
-  background-color: #0074D9;
-  color: #ffffff;
-  border: none;
-  border-radius: 20px;
-  padding: 5px 10px;
-  cursor: pointer;
-  margin-left: 30px;
- 
+    background-color: #0074D9;
+    color: #ffffff;
+    border: none;   
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
 }
 
-/* CONFIGURANDO A NAVEGAÇÃO UL */
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 15px;
- text-align: center;
- align-items: center;
- margin-left: -40px;
- padding-top: 20px;
+ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin-right: 60px;
+    text-align: center;
+    margin-top: 20px;
+    height: auto;
+    
+        
 }
 
-/* INSERINDO O HOVER NAS "LI" */
 ul li1:hover{
-  background-color: #7EC5E3;
-  color: white;
-  display: flexbox;
-  cursor: pointer;
-  border-radius: 5%;
-}
+    background-color: #7EC5E3;
+    color: white;
+    display: flexbox;
+    cursor: pointer;
+    border-radius: 5%;
+  }
+  
+  
+  ul li2:hover{
+    background-color:#7EC5E3;
+    color: white;
+    display: flexbox;
+    cursor: pointer;
+    border-radius: 5%;
+  }
+  
+  ul li3:hover{
+    background-color: #7EC5E3;
+    color: white;
+    display: flexbox;
+    cursor: pointer;
+    border-radius: 5%;
+  }
+  
+  ul li4:hover{
+    background-color: #7EC5E3;
+    color: white;
+    display: flexbox;
+    cursor: pointer;
+    border-radius: 5%;
+  }
+  
+  ul li5:hover{
+    background-color: #7EC5E3;
+    color: white;
+    display: flexbox;
+    cursor: pointer;
+    border-radius: 5%;
+  }
+  
+  ul li6:hover{
+    background-color: #7EC5E3;
+    color: white;
+    display: flexbox;
+    cursor: pointer;
+    border-radius: 5%;
+  }
 
-
-ul li2:hover{
-  background-color:#7EC5E3;
-  color: white;
-  display: flexbox;
-  cursor: pointer;
-  border-radius: 5%;
-}
-
-ul li3:hover{
-  background-color: #7EC5E3;
-  color: white;
-  display: flexbox;
-  cursor: pointer;
-  border-radius: 5%;
-}
-
-ul li4:hover{
-  background-color: #7EC5E3;
-  color: white;
-  display: flexbox;
-  cursor: pointer;
-  border-radius: 5%;
-}
-
-ul li5:hover{
-  background-color: #7EC5E3;
-  color: white;
-  display: flexbox;
-  cursor: pointer;
-  border-radius: 5%;
-}
-
-ul li6:hover{
-  background-color: #7EC5E3;
-  color: white;
-  display: flexbox;
-  cursor: pointer;
-  border-radius: 5%;
-}
-
-
-/* CONFIGURANDO A NAVEGAÇÃO ANCORA */
 nav a {
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
-
-
 /* Main Content */
 main {
-  padding: 20px;
+    padding: 20px;
 }
 
-/* CONFIGURANDO O BANNER */
 .baner {
-  margin: 20px 0;
-  text-align: center;
+    margin: 20px 0;
+    text-align: center;
 }
 
-/* CONFIGURANDO A IMAGEM BANNER */
 .baner img {
-  max-width: 100%;
-  border-radius: 15px;
+    max-width: 100%;
+    border-radius: 15px;
 }
 
 
