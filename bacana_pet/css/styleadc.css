@@ -52,13 +52,13 @@ body {
     border-radius: 20px;
     border: none;
     margin-left: 95px;
-    
+
 }
 
 .pesquisa button {
     background-color: #0074D9;
     color: #ffffff;
-    border: none;   
+    border: none;
     padding: 5px 10px;
     cursor: pointer;
     margin-left: 10px;
@@ -72,58 +72,58 @@ ul {
     text-align: center;
     margin-top: 20px;
     height: auto;
-    
-        
 }
 
-ul li1:hover{
+ul li1:hover {
     background-color: #7EC5E3;
     color: white;
     display: flexbox;
     cursor: pointer;
     border-radius: 5%;
-  }
-  
-  
-  ul li2:hover{
-    background-color:#7EC5E3;
-    color: white;
-    display: flexbox;
-    cursor: pointer;
-    border-radius: 5%;
-  }
-  
-  ul li3:hover{
+}
+
+
+ul li2:hover {
     background-color: #7EC5E3;
     color: white;
     display: flexbox;
     cursor: pointer;
     border-radius: 5%;
-  }
-  
-  ul li4:hover{
+}
+
+ul li3:hover {
     background-color: #7EC5E3;
     color: white;
     display: flexbox;
     cursor: pointer;
     border-radius: 5%;
-  }
-  
-  ul li5:hover{
+}
+
+ul li4:hover {
     background-color: #7EC5E3;
     color: white;
     display: flexbox;
     cursor: pointer;
     border-radius: 5%;
-  }
-  
-  ul li6:hover{
+}
+
+ul li5:hover {
     background-color: #7EC5E3;
     color: white;
     display: flexbox;
     cursor: pointer;
     border-radius: 5%;
-  }
+}
+
+ul li6:hover {
+    background-color: #7EC5E3;
+    color: white;
+    display: flexbox;
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+
 
 nav a {
     text-decoration: none;
@@ -150,7 +150,7 @@ main {
 .cor {
     color: white;
     display: block;
-    
+
 }
 
 
@@ -165,7 +165,8 @@ main {
     align-items: flex-start;
 }
 
-#rodape, .aten a h4 {
+#rodape,
+.aten a h4 {
     color: #fff;
     font-size: 18px;
     margin-bottom: 10px;
@@ -177,13 +178,13 @@ main {
 .reds a,
 .aten a,
 .formas a,
-.end a  {
+.end a {
     color: #fff;
     text-decoration: none;
     display: block;
     margin-bottom: 5px;
-    margin-top: 15px;
 }
+
 .ins,
 .reds,
 .aten,
@@ -192,7 +193,7 @@ main {
     flex-basis: calc(20% - 20px);
 }
 
-.end a{
+.end a {
     color: #fff;
     text-decoration: none;
     display: block;
@@ -429,4 +430,10 @@ p.con {
     max-width: 100%;
     margin-right: 10%;
     margin-left: 10%;
+}
+
+.promocao {
+
+    color: white;
+
 }

@@ -311,7 +311,9 @@ img.fotos:hover {
 
 }
 
-
+.center a{
+    color: #f0f0f0;
+}
 
 .flex-container {
     display: flex;
@@ -321,7 +323,7 @@ img.fotos:hover {
 
 .flex-container .center {
     padding-top: 1%;
-    background-color: #ffa42d;
+    background-color: #136093;
     width: 100%;
     margin: 1%;
     text-align: center;
