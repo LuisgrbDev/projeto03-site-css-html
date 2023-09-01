@@ -145,6 +145,7 @@ main {
     text-decoration: none;
     display: block;
     margin-bottom: 5px;
+    margin-top: 15px;
 }
 
 .reds img {
@@ -213,21 +214,21 @@ main {
 }
 
 h2 {
-    color: #ffa42d;
+    color: #136093;
 
 }
 
-.produtos,
-.servicos,
-.meadote {
-    max-width: 100%;
+
+
+.produtos {
     padding-left: 10%;
-    padding-top: 2%;
-
-
-
+    margin-top: 3px;
 }
 
+.servicos {
+    padding-left: 10%;
+    margin-top: 3px;
+}
 figure {
     display: flex;
 
@@ -239,7 +240,7 @@ figure {
     width: 10%;
     height: 250px;
     margin: 6%;
-    opacity: 0.8;
+    opacity: 45%;
     transition: opacity 0.1s ease-in-out;
     border-radius: 10%;
 
@@ -250,9 +251,9 @@ figure {
 img.fotos:hover {
     opacity: 2;
     width: 10%;
-    border: 1px solid #136093;
+    border: 0px solid #136093;
     height: 250px;
-
+    box-shadow: 8px 8px 20px #136093;
 }
 
 .fotoss {
@@ -269,7 +270,7 @@ img.fotos:hover {
     border: 0px solid #136093;
     height: auto;
     box-shadow: 8px 8px 20px #136093;
-    
+
 }
 
 
