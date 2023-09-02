@@ -18,17 +18,16 @@ body {
     background-color: #2bbaf6;
     padding: 10px;
 }
-.cab3 img{
-    margin-right: 20px;
-    padding: 5px;
-    align-items: right;
-    justify-content: right;
-    
 
+
+.cab1{
+    margin-left: 185px;
 }
 
-.cab1, .cab3 {
+
+.cab3 {
     flex: 1;
+    margin-right: 100px;
 }
 
 .cab2 {
@@ -36,6 +35,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 50px;
+
 }
 
 .responsive {
@@ -43,10 +44,6 @@ body {
     height: auto;
 }
 
-.pesquisa {
-    display: flex;
-    margin-left: 20px;
-}
 
 .pesquisa input[type="text"] {
     width: 200px;

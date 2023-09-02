@@ -21,12 +21,17 @@ body {
     align-items: center;
     background-color: #2bbaf6;
     padding: 10px;
-
 }
 
-.cab1,
+
+.cab1{
+    margin-left: 185px;
+}
+
+
 .cab3 {
     flex: 1;
+    margin-right: 100px;
 }
 
 .cab2 {
@@ -34,6 +39,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 50px;
+
 }
 
 .responsive {

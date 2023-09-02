@@ -14,7 +14,7 @@ body {
   background-color: #f0f0f0;
 }
 
-/* Header = CABEÇALHO */
+/* Header */
 .cab {
   display: flex;
   justify-content: space-between;
@@ -23,18 +23,24 @@ body {
   padding: 10px;
 }
 
-/* CABEÇALHO 1 E 3 */
-.cab1,
-.cab3 {
-  flex: 1;
+
+.cab1{
+  margin-left: 185px;
 }
 
-/* CABEÇALHO 2 */
+
+.cab3 {
+  flex: 1;
+  margin-right: 100px;
+}
+
 .cab2 {
   flex: 2;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 50px;
+
 }
 
 /* RESPONSIVO */
