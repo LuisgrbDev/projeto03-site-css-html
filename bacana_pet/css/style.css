@@ -25,15 +25,9 @@ body {
     padding: 10px;
 }
 
-
-.cab1{
-    margin-left: 185px;
-}
-
-
+.cab1,
 .cab3 {
     flex: 1;
-    margin-right: 100px;
 }
 
 .cab2 {
@@ -41,7 +35,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 50px;
 
 }
 
@@ -156,48 +149,43 @@ main {
 
 
 
-/* Footer */
+/* Footer = RODAPÉ */
 #rodape {
     background-color: #136093;
     padding: 20px;
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
-    margin: auto;
-}
-
-#rodape h4 {
+  }
+  
+  #rodape h4 {
     color: #fff;
     font-size: 18px;
     margin-bottom: 10px;
-}
-
-.ins,
-.reds,
-.aten,
-.formas,
-.end {
-    flex-basis: calc(20% - 20px);
-    margin-left: 50px;
-}
-
-.end a,
-.ins a,
-.reds a,
-.aten a,
-.formas a,
-.end a {
+  }
+  
+  .ins,
+  .reds,
+  .aten,
+  .formas,
+  .end {
+    flex-basis: calc(20% - 10px);
+  
+  }
+  
+  
+  .end a,
+  .ins a,
+  .reds a,
+  .aten a,
+  .formas a,
+  .end a {
     color: #fff;
     text-decoration: none;
     display: block;
     margin-bottom: 5px;
-    
-}
-
-.reds img {
-    margin-right: 10px;
-}
+  }
 
 /* Responsive Styles */
 @media screen and (max-width: 1200px) {
@@ -284,7 +272,6 @@ figure {
 
 
 .fotos {
-
     width: 10%;
     height: 250px;
     margin: 6%;

@@ -14,7 +14,6 @@ body {
     background-color: #f0f0f0;
 }
 
-
 /* Header */
 .cab {
     display: flex;
@@ -24,15 +23,9 @@ body {
     padding: 10px;
 }
 
-
-.cab1{
-    margin-left: 185px;
-}
-
-
+.cab1,
 .cab3 {
     flex: 1;
-    margin-right: 100px;
 }
 
 .cab2 {
@@ -40,8 +33,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 50px;
-
 }
 
 .responsive {
@@ -49,7 +40,10 @@ body {
     height: auto;
 }
 
-
+.pesquisa {
+    display: flex;
+    margin-left: 20px;
+}
 
 
 .pesquisa input[type="text"] {
@@ -377,17 +371,15 @@ p.con {
 
 .box-text1 {
     text-align: center;
-    color: #F79E1B;
+    color: #136093;
     margin-top: 0px;
 }
 
 .box-text2 {
     text-align: center;
     color: #2CBAF6;
-    margin-top: 0px;
-    width: 790px;
+    /* width: 790px; */
     font-size: 25px;
-    margin-left: 540px;
 }
 
 .formulario {
@@ -415,7 +407,7 @@ p.con {
 
 .adoc {
 
-    border: 1px solid #ed8d31;
+    border: 1px solid #136093;
     margin-top: 40px;
 }
 
