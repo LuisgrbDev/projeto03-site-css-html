@@ -218,10 +218,10 @@ h2 {
   font-size: 350%;
   padding-top: 3%;
   font-weight: bold;
-  color: #2d9bda;
+  color: #ffffff;
   word-spacing: 25px;
   width: 100%;
-  color: #2d9bda;
+  color: #ffffff;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #110247;
   -webkit-text-fill-color: #2d9bda;
@@ -249,6 +249,7 @@ h3 {
   padding-top: 1%;
   background-color: #2bbaf6;
   border-radius: 5px;
+  color: #ffffff;
 
 }
 
@@ -271,7 +272,7 @@ h3 {
   margin: 5px;
   margin-left: 30px;
   border-radius: 95px;
-  box-shadow: 5px 11px 11px 3px #136093;
+  box-shadow: 5px 11px 11px 3px #97e3f8;
 }
 
 
@@ -285,7 +286,7 @@ h3 {
 
 /* CONFIGURANDO A CAIXA DE FORMULARIO */
 .box-formulario {
-  background-color: #136093;
+  background-color: #97e3f8;
   width: 800px;
   padding: 10px;
   border-color: #000306;
@@ -340,7 +341,7 @@ h3 {
 
 /* CONFIGURANDO O MOUSE SUBMIT */
 #sub:hover {
-  background-color: #136093;
+  background-color: #97e3f8;
   color: white;
   display: flexbox;
   cursor: pointer;
@@ -355,6 +356,7 @@ h3 {
   color: #000306;
   display: flexbox;
   border-radius: 5px;
+  color: #ffffff;
 }
 
 
@@ -382,7 +384,7 @@ h3 {
 
 /* CONFIGURANDO A CAIXA DE FORMULARIO CONSULTA */
 .box-consulta {
-  background-color: #136093;
+  background-color: #97e3f8;
   width: 800px;
   padding: 10px;
   border-color: #000306;

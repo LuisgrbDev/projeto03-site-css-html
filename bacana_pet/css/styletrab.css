@@ -285,7 +285,7 @@ img.fotos:hover {
 
 .flex-container .cantos {
     padding-top: 1%;
-    background-color: dodgerblue;
+    background-color: #97e3f8;
     width: 100%;
     margin: 1%;
     text-align: center;
@@ -309,7 +309,7 @@ p.con {
 }
 
 .trabalhe {
-    background-color: #136093;
+    background-color: #97e3f8;
     display: flex;
     justify-content: center;
    width: 80%;

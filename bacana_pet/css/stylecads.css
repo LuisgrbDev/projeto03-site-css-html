@@ -75,19 +75,20 @@ body {
 }
 
 /* CONFIGURANDO A NAVEGAÇÃO UL */
-nav ul {
+ul {
   list-style: none;
   display: flex;
   gap: 15px;
- text-align: center;
- align-items: center;
- margin-left: -40px;
- padding-top: 20px;
+  margin-right: 60px;
+  text-align: center;
+  margin-top: 20px;
+  height: auto;
+  
+      
 }
 
-/* INSERINDO O HOVER NAS "LI" */
 ul li1:hover{
-  background-color: #136093;
+  background-color: #7EC5E3;
   color: white;
   display: flexbox;
   cursor: pointer;
@@ -96,7 +97,7 @@ ul li1:hover{
 
 
 ul li2:hover{
-  background-color: #136093;
+  background-color:#7EC5E3;
   color: white;
   display: flexbox;
   cursor: pointer;
@@ -104,7 +105,7 @@ ul li2:hover{
 }
 
 ul li3:hover{
-  background-color: #136093;
+  background-color: #7EC5E3;
   color: white;
   display: flexbox;
   cursor: pointer;
@@ -112,7 +113,7 @@ ul li3:hover{
 }
 
 ul li4:hover{
-  background-color: #136093;
+  background-color: #7EC5E3;
   color: white;
   display: flexbox;
   cursor: pointer;
@@ -120,7 +121,7 @@ ul li4:hover{
 }
 
 ul li5:hover{
-  background-color: #136093;
+  background-color: #7EC5E3;
   color: white;
   display: flexbox;
   cursor: pointer;
@@ -128,12 +129,20 @@ ul li5:hover{
 }
 
 ul li6:hover{
-  background-color: #136093;
+  background-color: #7EC5E3;
   color: white;
   display: flexbox;
   cursor: pointer;
   border-radius: 5%;
 }
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+
+}
+
 
 
 /* CONFIGURANDO A NAVEGAÇÃO ANCORA */
